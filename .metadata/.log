@@ -1,0 +1,51 @@
+!SESSION 2020-09-19 18:54:09.365 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ru_UA
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2020-09-19 18:54:19.341
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2020-09-19 18:54:19.461
+!MESSAGE OS info: Linux, 5.4.64-1-MANJARO, amd64
+
+!ENTRY TrueSTUDIO 1 0 2020-09-19 18:54:21.051
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2020-09-19 18:54:21.051
+!MESSAGE Workspace: /home/ilya/STM32
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2020-09-19 18:54:23.478
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2020-09-19 18:54:23.550
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.jface 2 0 2020-09-19 18:54:23.602
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-09-19 18:54:23.605
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b332b23,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66a472b9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-19 18:55:26.529
+!MESSAGE Indexed 'STM32_X9C103_v.0.2' (28 sources, 62 headers) in 3,89 sec: 6 567 declarations; 19 436 references; 1 unresolved inclusions; 34 syntax errors; 11 unresolved names (0,042 %)
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2020-09-19 18:57:02.228
+!MESSAGE Unloading product manager
