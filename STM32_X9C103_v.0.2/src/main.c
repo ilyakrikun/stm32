@@ -25,7 +25,7 @@ void delay_ms(uint16_t delay_par)
 //Управление потенциометром
 //-------------------------------------------------------------
 
-void Increased_Resistance (void)
+void Increased_Resistance (void)		// Наростание
 {
 	UD_ON();
 	INC_ON();
@@ -38,7 +38,7 @@ void Increased_Resistance (void)
 	CS_ON();
 }
 
-void Decreas_Resistance (void)
+void Decreas_Resistance (void)			// Понижение
 {
 	UD_OFF();
 	INC_ON();
